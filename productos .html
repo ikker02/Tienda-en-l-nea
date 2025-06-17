@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="witdh = device-width, inital-scale= 1.0">
+  <title> Mi tienda en linea </title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel= "stylessheet" href="css/responsive.css">
+  </head>
+<body>
+  <header>
+    <h1> Mi tienda </h1>
+    <nav>
+    <ul>
+      <li> <a href="index.html"> inicio</a></li>
+      <li> <a href="productos .html"> producto</a></li>
+      <li> <a href="carrito.html"> carrito</a></li>
+      <li> <a href="contacto .html"> contacto</a></li>
+    </ul>
+    </nav>
+    <section class="busqueda">
+      <input type="text" id="buscador" 
+        placeholder= "Buscar producto..."
+        oninput= "filtrar productos()"/>
+      </section>
+  </header>
+  <main>
+    <h2> Bienvenido a nuestera tienda </h2>
+    <p> Encuentra los mejores productos al mejor precio </p>
+    <section class="Ofertas">
+      <h2>💸Ofertas del dia </h2>
+      <div class="Productos">
+        <figure class="Producto"> 
+          <img src="imgredmi.jpeg" alt="Redmi" width="200"/>
+          <figcaption>
+            <h3> Redmi Note 14 Pro </h3>
+            <p class="Descripcion"> Memoria RAM  8GB • Procesador Mediatek </p>
+            <p class="Precio-Oferta"> <del> $15,000.00 </del> $12,999.00</p>
+            <p class="Rating"> ⭐⭐⭐⭐⭐ </p>
+            <button onclick="AgregarA]Carrito('Laptop Gamer',12999, '  imglap.jpeg')"> Agregar al carrito </button>
+          </figcaption>
+        </figure>
+        <figure class="Producto"> 
+          <img src="imglap.jpeg" alt="Laptop Gamer"/>
+          <figcaption>
+            <h3> Laptop Gamer </h3>
+            <p class="Descripcion"> Teclado retroiluminador </p>
+            <p class="Precio-Oferta"> <del> $32,268.00 </del> $24,500.00</p>
+            <p class="Rating"> ⭐⭐⭐⭐⭐ </p>
+            <button onclick="AgregarA]Carrito('Laptop Gamer',12999, '  imglap.jpeg')"> Agregar al carrito </button>
+          </figcaption>
+        </figure>
+        <figure class="Producto"> 
+          <img src="imgxbox.jpeg" width="250" alt="Xbox Series"/>
+          <figcaption>
+            <h3> Xbox Series S </h3>
+            <p class="Descripcion"> Resolución de 2560 px x 1440 px </p>
+            <p class="Precio-Oferta"> <del> $5,300.00 </del> $3,200.00 </p>
+            <p class="Rating"> ⭐⭐⭐⭐⭐ </p>
+            <button onclick="AgregarA]Carrito('Laptop Gamer',12999, '  imglap.jpeg')"> Agregar al carrito </button>
+          </figcaption>
+        </figure>
+         <figure class="Producto"> 
+          <img src="imgtv.jpeg" alt="TV" width="200"/>
+          <figcaption>
+            <h3> Pantalla Samsung </h3>
+            <p class="Descripcion"> 50 pulgadas </p>
+            <p class="Precio-Oferta"> <del> $8,000.00 </del> $5,000.00 </p>
+            <p class="Rating"> ⭐⭐⭐⭐⭐ </p>
+            <button onclick="AgregarA]Carrito('Laptop Gamer',12999, '  imglap.jpeg')"> Agregar al carrito </button>
+          </figcaption>
+        </figure>
+         <figure class="Producto"> 
+          <img src="imgtablet.jpeg" alt="Tablet" width="200"/>
+          <figcaption>
+            <h3> Tableta Iphone </h3>
+            <p class="Descripcion"> Resolucion Max 1920 x 1200 pixeles </p>
+            <p class="Precio-Oferta"> <del> $3,187.00 </del> $2,250.00 </p>
+            <p class="Rating"> ⭐⭐⭐⭐⭐ </p>
+            <button onclick="AgregarA]Carrito('Laptop Gamer',12999, '  imglap.jpeg')"> Agregar al carrito </button>
+          </figcaption>
+        </figure>
+         <figure class="Producto"> 
+          <img src="imgrefri.jpeg" alt="Refri" width="200"/>
+          <figcaption>
+            <h3> Refrigerador </h3>
+            <p class="Descripcion"> Capasidad de 6.3 pies cubicos </p>
+            <p class="Precio-Oferta"> <del> $4,500.00 </del> $3,500.00 </p>
+            <p class="Rating"> ⭐⭐⭐⭐⭐ </p>
+            <button onclick="AgregarA]Carrito('Laptop Gamer',12999, '  imglap.jpeg')"> Agregar al carrito </button>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p> &copy; 2025 Mi Tienda </p>
+  </footer>
+  <script src="js/main.js"> </script>
+</body>
+</html>
